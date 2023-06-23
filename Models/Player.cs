@@ -1,6 +1,4 @@
-#if UNITY_EDITOR
 using System;
-#endif
 
 namespace SharedLibrary.Models
 {
