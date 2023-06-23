@@ -1,12 +1,15 @@
-namespace SharedLibrary.Packets.ClientToServer;
+using System;
 
-public sealed class LoginRequestPacket : IClientToServerPacket
+namespace SharedLibrary.Packets.ClientToServer
 {
-    public string Key { get; set; } = "LoginRequest";
-    public String UserId { get; set; }
-
-    public LoginRequestPacket(String userId)
+    public sealed class LoginRequestPacket : IClientToServerPacket
     {
-        UserId = userId;
+        public string Key { get; set; } = "LoginRequest";
+        public String UserId { get; set; }
+
+        public LoginRequestPacket(String userId)
+        {
+            UserId = userId;
+        }
     }
 }

@@ -1,7 +1,10 @@
-namespace SharedLibrary.Models;
+using System;
 
-public class Player
+namespace SharedLibrary.Models
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; } = "";
+    public class Player
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; } = "";
+    }
 }
