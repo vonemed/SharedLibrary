@@ -1,7 +1,6 @@
-namespace SharedLibrary.Packets
-{
-    public interface IPacket
-    {
+namespace SharedLibrary.Packets;
 
-    }
+public interface IPacket
+{
+    
 }

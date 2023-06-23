@@ -1,8 +1,7 @@
 
-namespace SharedLibrary.Packets
+namespace SharedLibrary.Packets;
+
+public interface IClientToServerPacket : IPacket
 {
-    public interface IClientToServerPacket : IPacket
-    {
-        public string Key { get; set; }
-    }
+    public string Key { get; set; }
 }
